@@ -19,4 +19,7 @@ export class PostsComponent implements OnInit {
     // },err=>{},()=>{console.log('complete')});
   }
 
+  ngClic(id:number){
+      console.log(id);
+  }
 }
