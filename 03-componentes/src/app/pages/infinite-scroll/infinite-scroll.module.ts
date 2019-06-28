@@ -5,13 +5,13 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ActionSheetPage } from './action-sheet.page';
+import { InfiniteScrollPage } from './infinite-scroll.page';
 import { ComponentsModule } from '../../components/components.module';
 
 const routes: Routes = [
   {
     path: '',
-    component: ActionSheetPage
+    component: InfiniteScrollPage
   }
 ];
 
@@ -23,6 +23,6 @@ const routes: Routes = [
     ComponentsModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [ActionSheetPage]
+  declarations: [InfiniteScrollPage]
 })
-export class ActionSheetPageModule {}
+export class InfiniteScrollPageModule {}

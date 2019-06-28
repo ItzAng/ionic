@@ -5,13 +5,13 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ActionSheetPage } from './action-sheet.page';
+import { GridPage } from './grid.page';
 import { ComponentsModule } from '../../components/components.module';
 
 const routes: Routes = [
   {
     path: '',
-    component: ActionSheetPage
+    component: GridPage
   }
 ];
 
@@ -23,6 +23,6 @@ const routes: Routes = [
     ComponentsModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [ActionSheetPage]
+  declarations: [GridPage]
 })
-export class ActionSheetPageModule {}
+export class GridPageModule {}
