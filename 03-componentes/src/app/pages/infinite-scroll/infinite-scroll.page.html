@@ -7,7 +7,7 @@
         </ion-item>
     </ion-list>
 
-    <ion-infinite-scroll threshold="100px" (ionInfinite)="loadData()">
-        <ion-infinite-scroll-content loadingSpinner="crescent" loadingText="DDD"></ion-infinite-scroll-content>
+    <ion-infinite-scroll  threshold="100px" (ionInfinite)="loadData($event)">
+        <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="DDD"></ion-infinite-scroll-content>
     </ion-infinite-scroll>
 </ion-content>
